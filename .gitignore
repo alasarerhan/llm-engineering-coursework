@@ -11,3 +11,5 @@ KAGGLE/
 KAGGLE_SORTED/
 KAGGLE_COMPLETE/
 *.zip
+*.pt
+*.pth
