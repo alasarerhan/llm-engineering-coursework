@@ -1,0 +1,13 @@
+.env
+hf.env
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+artifacts/
+KAGGLE/
+KAGGLE_SORTED/
+KAGGLE_COMPLETE/
+*.zip

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langusta"
+version = "1.0.0"
+description = "Reproducible Turkish KPSS reasoning dataset, BPE tokenizer, and QLoRA project"
+requires-python = ">=3.10"
+dependencies = [
+  "datasets>=3.0,<5",
+  "huggingface-hub>=0.27,<2",
+  "python-dotenv>=1.0,<2",
+  "tokenizers>=0.21,<1",
+  "transformers>=4.48,<6",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
