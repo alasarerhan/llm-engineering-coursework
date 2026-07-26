@@ -1,4 +1,4 @@
-# Turkish District LM
+# P01.1 — DistrictGPT
 
 Türkiye ilçeleri hakkındaki metinler üzerinde özel bir BPE tokenizer ve küçük bir decoder-only Transformer eğiten, eğitim amaçlı sıfırdan dil modeli projesidir.
 
@@ -30,7 +30,7 @@ turkish-district-lm/
 ## Kurulum
 
 ```bash
-cd projects/turkish-district-lm
+cd projects/P01.1-DistrictGPT
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -57,7 +57,7 @@ python3 generate.py "Ankara" 0.6
 - Tokenizer hedef kelime dağarcığı 200 tokendır.
 - Eğitim deterministik başlangıç için `1337` seed değerini kullanır.
 - Eğitim cihazı CUDA kullanılabiliyorsa GPU, aksi durumda CPU olarak seçilir.
-- Mimari dosyaları kurs kapsamında sağlanan Qwen3 başlangıç kodundan uyarlanmıştır; tokenizer, eğitim akışı ve inference entegrasyonu ödev kapsamında hazırlanmıştır.
+- Mimari dosyaları program kapsamında sağlanan Qwen3 başlangıç kodundan uyarlanmıştır; tokenizer, eğitim akışı ve inference entegrasyonu proje kapsamında hazırlanmıştır.
 
 ## Veri
 

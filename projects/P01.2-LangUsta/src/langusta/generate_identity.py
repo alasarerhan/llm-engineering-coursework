@@ -17,7 +17,7 @@ from .settings import IDENTITY_DATASET_REPO, IDENTITY_SYSTEM_PROMPT
 def load_manual(path: Path) -> list[dict[str, str]]:
     examples = json.loads(path.read_text(encoding="utf-8"))
     if len(examples) < 20:
-        raise ValueError("Kimlik ödevi için en az 20 manuel örnek gerekir.")
+        raise ValueError("Kimlik projesi için en az 20 manuel örnek gerekir.")
     cleaned = []
     for item in examples:
         question = clean_text(item.get("question"))

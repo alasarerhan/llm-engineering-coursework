@@ -20,4 +20,4 @@ ids = tokenizer.encode("KPSS sorusunu gerekçeli çöz.")
 print(tokenizer.decode(ids))
 ```
 
-Bu tokenizer bağımsız ödev çıktısıdır; Qwen LoRA eğitiminde temel modelin kendi tokenizer'ı kullanılmıştır.
+Bu tokenizer bağımsız bir proje çıktısıdır; Qwen LoRA eğitiminde temel modelin kendi tokenizer'ı kullanılmıştır.
