@@ -1,4 +1,4 @@
-# LangUsta
+# P01.2 — LangUsta
 
 LangUsta, KPSS sorularını Türkçe ve gerekçeli biçimde çözmek üzere Qwen2.5-0.5B-Instruct üzerinde geliştirilen,
 yeniden üretilebilir bir veri hazırlama, tokenizer eğitimi ve QLoRA uyarlama projesidir.
