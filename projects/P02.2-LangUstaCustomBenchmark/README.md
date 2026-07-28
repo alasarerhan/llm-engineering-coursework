@@ -22,6 +22,20 @@ Six systems are evaluated under the same protocol:
 5. TinyLlama-1.1B-Chat
 6. Gemma 3 1B Instruct 4-bit
 
+## Results
+
+| Model | Correct | Accuracy | Valid letter format |
+| --- | ---: | ---: | ---: |
+| Qwen2.5-1.5B-Instruct | 33/100 | 33% | 100% |
+| LangUsta-MCQ-Letter-LoRA | 29/100 | 29% | 100% |
+| SmolLM2-1.7B-Instruct | 23/100 | 23% | 95% |
+| Qwen2.5-0.5B-Instruct | 19/100 | 19% | 97% |
+| Gemma-3-1B-Instruct-4bit | 19/100 | 19% | 99% |
+| TinyLlama-1.1B-Chat | 0/100 | 0% | 1% |
+
+Detailed predictions and machine-readable summaries are available in the
+`results/` directory.
+
 ## Kaggle
 
 1. Upload `notebooks/LangUstaCustomBenchmark.ipynb` to Kaggle.
