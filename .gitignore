@@ -13,3 +13,8 @@ KAGGLE_COMPLETE/
 *.zip
 *.pt
 *.pth
+model_bolum_sonuclar_ds/
+sonuc_ds/
+mmlu_veri_ds/
+models/
+benchmark_answers.parquet
