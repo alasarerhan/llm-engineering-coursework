@@ -32,14 +32,6 @@
     "runtime_seconds": 29.29
   },
   {
-    "model": "TinyLlama-1.1B-Chat",
-    "questions": 100,
-    "correct": 0,
-    "accuracy": 0,
-    "valid_format_rate": 1,
-    "runtime_seconds": 25.09
-  },
-  {
     "model": "Gemma-3-1B-Instruct-4bit",
     "questions": 100,
     "correct": 19,

@@ -1,6 +1,6 @@
 # P02.2 - LangUsta Custom Benchmark
 
-This project evaluates LangUsta and five comparison models on a custom Turkish
+This project evaluates LangUsta and four comparison models on a custom Turkish
 multiple-choice benchmark. The benchmark contains 100 records held out before
 the `langusta-mcq-letter-lora` training run.
 
@@ -13,25 +13,23 @@ the `langusta-mcq-letter-lora` training run.
 - Scoring: exact first-letter match
 - Reported metrics: accuracy, valid-format rate, correct count, and runtime
 
-Six systems are evaluated under the same protocol:
+Five systems are evaluated under the same protocol:
 
 1. LangUsta MCQ Letter LoRA
 2. Qwen2.5-0.5B-Instruct
 3. Qwen2.5-1.5B-Instruct
 4. SmolLM2-1.7B-Instruct
-5. TinyLlama-1.1B-Chat
-6. Gemma 3 1B Instruct 4-bit
+5. Gemma 3 1B Instruct 4-bit
 
 ## Results
 
-| Model | Correct | Accuracy | Valid letter format |
-| --- | ---: | ---: | ---: |
-| Qwen2.5-1.5B-Instruct | 33/100 | 33% | 100% |
-| LangUsta-MCQ-Letter-LoRA | 29/100 | 29% | 100% |
-| SmolLM2-1.7B-Instruct | 23/100 | 23% | 95% |
-| Qwen2.5-0.5B-Instruct | 19/100 | 19% | 97% |
-| Gemma-3-1B-Instruct-4bit | 19/100 | 19% | 99% |
-| TinyLlama-1.1B-Chat | 0/100 | 0% | 1% |
+| Model | Correct | Accuracy |
+| --- | ---: | ---: |
+| Qwen2.5-1.5B-Instruct | 33/100 | 33% |
+| LangUsta-MCQ-Letter-LoRA | 29/100 | 29% |
+| SmolLM2-1.7B-Instruct | 23/100 | 23% |
+| Qwen2.5-0.5B-Instruct | 19/100 | 19% |
+| Gemma-3-1B-Instruct-4bit | 19/100 | 19% |
 
 Detailed predictions and machine-readable summaries are available in the
 `results/` directory.

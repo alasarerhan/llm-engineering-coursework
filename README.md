@@ -9,7 +9,7 @@ Uygulamalı LLM mühendisliği programı boyunca geliştirilen projelerin düzen
 | P01.1 | [DistrictGPT](projects/P01.1-DistrictGPT/) | Özel BPE tokenizer ve decoder-only Transformer ile sıfırdan Türkçe dil modeli | Eğitim kodu, veri ve inference aracı |
 | P01.2 | [LangUsta](projects/P01.2-LangUsta/) | KPSS veri mühendisliği, özel tokenizer ve Qwen2.5 QLoRA | Hugging Face veri setleri, tokenizer ve LoRA adaptörleri |
 | P02.1 | [Turkish MMLU Benchmark](projects/P02.1-TurkishMMLUBenchmark/) | Fine-tune edilmiş model ile base modelin TR-MMLU karşılaştırması | Benchmark kodu ve karşılaştırmalı sonuç raporu |
-| P02.2 | [LangUsta Custom Benchmark](projects/P02.2-LangUstaCustomBenchmark/) | LangUsta senaryosuna özel 100 soruluk çoktan seçmeli benchmark | Test seti, 6 model sonucu ve Hugging Face kart taslağı |
+| P02.2 | [LangUsta Custom Benchmark](projects/P02.2-LangUstaCustomBenchmark/) | LangUsta senaryosuna özel 100 soruluk çoktan seçmeli benchmark | Test seti, 5 model sonucu ve Hugging Face kart taslağı |
 
 ## Proje Kodları
 
